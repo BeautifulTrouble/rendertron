@@ -1,0 +1,10 @@
+{
+    "renderOnly": [
+        "https://beautifultrouble.org/toolbox/"
+    ],
+    "cache": "memory",
+    "cacheConfig": {
+        "cacheDurationMinutes": 10080,
+        "cacheMaxEntries": -1
+    }
+}
