@@ -1,0 +1,10 @@
+[Unit]
+Description=Rendertron dynamic renderer
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /home/bt/rendertron/bin/rendertron
+Restart=on-failure
+RestartSec=5s
+

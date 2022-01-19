@@ -1,0 +1,7 @@
+[Unit]
+Description=Rendertron cache populator
+After=rendertron.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/node /home/bt/rendertron/prerendertron.js
