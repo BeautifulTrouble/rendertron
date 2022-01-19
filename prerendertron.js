@@ -10,7 +10,7 @@ const hitCache = slug => {
     path: `/render/https://beautifultrouble.org/toolbox/#/tool/${slug}`,
     method: 'GET'
   }, res => {
-    res.on('end', () => process.stdout.write(`loaded\n`))
+    res.on('end', () => process.stdout.write(`Cached page for ${slug}\n`))
   })
 }
 
@@ -28,7 +28,7 @@ const req = https.request({
   res.on('end', () => {
     const tools = JSON.parse(body);
     tools.forEach(tool => {
-      process.stdout.write(`Loading ${tool.slug}... `)
+      process.stdout.write(`Requesting ${tool.slug}...\n`)
       hitCache(tool.slug)
     })
   })
