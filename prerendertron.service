@@ -4,4 +4,4 @@ After=rendertron.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/node /home/bt/rendertron/prerendertron.js
+ExecStart=/home/bt/venv/bin/python /home/bt/rendertron/prerendertron.py
