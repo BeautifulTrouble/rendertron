@@ -8,3 +8,5 @@ ExecStart=/usr/bin/node /home/bt/rendertron/bin/rendertron
 Restart=on-failure
 RestartSec=5s
 
+[Install]
+WantedBy=default.target
