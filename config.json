@@ -1,6 +1,6 @@
 {
     "renderOnly": [
-        "https://beautifultrouble.org/toolbox/"
+        "https://beautifultrouble.org/toolbox"
     ],
     "cache": "memory",
     "cacheConfig": {
