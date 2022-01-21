@@ -4,4 +4,4 @@ After=rendertron.service
 
 [Service]
 Type=oneshot
-ExecStart=/home/bt/venv/bin/python /home/bt/rendertron/prerendertron.py
+ExecStart=%h/rendertron/venv/bin/python %h/rendertron/prerendertron.py
