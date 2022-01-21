@@ -3,7 +3,7 @@
 import requests
 
 RENDERTRON_PORT = 3000
-TOOL_URL = "https://beautifultrouble.org/toolbox/tool/"
+TOOL_URL = "https://beautifultrouble.org/toolbox/tool"
 
 j = requests.get("https://api.beautifulrising.org/api/v1/modules").json()
 
