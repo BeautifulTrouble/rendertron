@@ -5,7 +5,7 @@
     "restrictedUrlPattern": [
         "https://beautifultrouble.org/toolbox/../"
     ],
-    "cache": "memory",
+    "cache": "filesystem",
     "cacheConfig": {
         "cacheDurationMinutes": 10080,
         "cacheMaxEntries": -1
