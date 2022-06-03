@@ -2,7 +2,7 @@
     "renderOnly": [
         "https://beautifultrouble.org/toolbox"
     ],
-    "restrictedUrlPattern": "https://beautifultrouble.org/toolbox/../?",
+    "restrictedUrlPattern": "^https://beautifultrouble.org/toolbox/../?$",
     "cache": "filesystem",
     "cacheConfig": {
         "cacheDurationMinutes": 10080,
