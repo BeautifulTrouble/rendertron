@@ -3,7 +3,8 @@
         "https://beautifultrouble.org/toolbox"
     ],
     "restrictedUrlPattern": [
-        "https://beautifultrouble.org/toolbox/../"
+        "https://beautifultrouble.org/toolbox/../",
+        "https://beautifultrouble.org/toolbox/.."
     ],
     "cache": "filesystem",
     "cacheConfig": {
