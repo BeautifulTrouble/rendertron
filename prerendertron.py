@@ -4,7 +4,7 @@ import requests
 
 RENDERTRON_PORT = 3000
 
-j = requests.get("https://api.beautifulrising.org/api/v1/modules").json()
+j = requests.get("https://api.beautifultrouble.org/api/v1/modules").json()
 
 for tool in j:
     print(f"Fetching {tool['title']}...")
